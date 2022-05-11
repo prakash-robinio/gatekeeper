@@ -2429,6 +2429,7 @@ spec:
         - --logtostderr
         - --disable-opa-builtin={http.send}
         - --emit-audit-events
+        - --audit-interval=10
         command:
         - /manager
         env:
